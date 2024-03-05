@@ -1,4 +1,4 @@
-import { StatusBar } from 'expo-status-bar';
+// import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image} from 'react-native';
  
 
@@ -28,9 +28,14 @@ export default function App(){
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "blue",
     justifyContent: "center",
+    backgroundColor: '#90CAF9',
     padding: 8,
-    paddingTop: 8,
+    
+  },
+  image:{
+    maxWidth : '100%',
+    maxHeight : '100%',
+    display : 'block'
   },
 });

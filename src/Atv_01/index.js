@@ -2,11 +2,13 @@ import { Text, View, Image } from "react-native";
 import styles from "./style";
 import Saudacoes from "./saudacoes";
 
+import logo from '../../assets/002-1-react-native.png';
+
 
 export default function Index() {
     return(
         <View style={styles.container}>
-            <Image source= {require=('../../assets/002-1-react-native.png')} style={styles.image}/>
+            <Image source= {logo} style={styles.image} resizeMode="contain"/>
             <Text style={styles.paragraph}>
                 Exemplo 2
             </Text>
@@ -18,4 +20,6 @@ export default function Index() {
                 
         </View>
     );
+
+    // resizeMode="contain" caso não couber na tela ele a diminui de tamanho!
 }
