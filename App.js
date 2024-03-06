@@ -3,7 +3,10 @@ import { StyleSheet, Text, View, Image} from 'react-native';
  
 
 // import Props from './src/Ex_02';
-import Index from './src/Atv_01';
+// import Index from './src/Atv_01';
+
+// import index from './src/Ex_03/index';
+import Exemplo_3 from './src/Ex_03/index';
 
 
 
@@ -20,7 +23,7 @@ import Index from './src/Atv_01';
 export default function App(){
   return(
     <View style={styles.container}>
-      <Index/>
+      <Exemplo_3/>
     </View>
   );
 }
@@ -28,6 +31,7 @@ export default function App(){
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    alignItems: 'center',
     justifyContent: "center",
     backgroundColor: '#90CAF9',
     padding: 8,
