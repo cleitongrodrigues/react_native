@@ -7,13 +7,12 @@ export default function Exemplo_3(){
 
     function ola(nome){
         alert(`Olá ${nome}`);
-
+    }
     function incremento(){
         const inc = numero + 1;
         setNumero(inc);
-            // console.log(numero);
     }
-    }
+ 
     return(
         <View style={styles.container}>
             <Text style={styles.titulo}>Exemplo_3</Text>
@@ -30,7 +29,8 @@ export default function Exemplo_3(){
 
             <TouchableOpacity 
             style={styles.botao} 
-            onPress={() => incremento()}>
+            onPress={() => incremento()}
+            >
 
                 <Text style={styles.txtbotao}>+1</Text>
 

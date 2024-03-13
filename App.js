@@ -6,7 +6,8 @@ import { StyleSheet, Text, View, Image} from 'react-native';
 // import Index from './src/Atv_01';
 
 // import index from './src/Ex_03/index';
-import Exemplo_3 from './src/Ex_03/index';
+// import Exemplo_3 from './src/Ex_03/index';
+import Exemplo_3 from './src/Atividade_03/index';
 
 
 
@@ -33,7 +34,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: "center",
-    backgroundColor: '#90CAF9',
+    backgroundColor: 'gray',
     padding: 8,
     
   },
