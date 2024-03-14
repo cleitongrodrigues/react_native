@@ -19,23 +19,24 @@ export default function Atividade_3(){
     }
     return(
         <View style={styles.container}>
-           <View style={styles.View}> 
+           
          
             <Text style={styles.titulo}>Atividade_3</Text>
 
             
-           
-            <Text style={styles.valor}> {numero} </Text>
+            <View style={styles.View}> 
             <TouchableOpacity 
             
             style={styles.botao} 
             onPress={() => incremento()}
             >
 
-                <Text style={styles.txtbotao1}>+1</Text>
+                <Text style={styles.txtbotao}>+1</Text>
 
                
             </TouchableOpacity>
+            <Text style={styles.valor}> {numero} </Text>
+           
 
             <TouchableOpacity 
             style={styles.botao} 

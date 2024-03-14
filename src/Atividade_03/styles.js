@@ -10,8 +10,13 @@ const styles = StyleSheet.create({
         borderRadius:20,
     },
     View:{
-        display:'inline-block',
-        flexWrap:'wrap',
+        padding:8,
+        flexDirection:'row',
+        width:'30%',
+        justifyContent:'center',
+        alignItems:'center',
+        // borderRadius:30,
+        borderWidth:10,
  
     },
 
@@ -41,14 +46,11 @@ const styles = StyleSheet.create({
         marginTop:20,
 
     },
-    txtbotao1:{
-        color:'#f5f5f5',
-        fontSize:20,
-        margin:0,
-    },
     txtbotao:{
         color:'#f5f5f5',
         fontSize:20,
+        padding:8
+
     },
 })
 export default styles;
