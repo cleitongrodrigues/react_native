@@ -12,7 +12,6 @@ const styles = StyleSheet.create({
     View:{
         padding:8,
         flexDirection:'row',
-        width:'30%',
         justifyContent:'center',
         alignItems:'center',
         // borderRadius:30,
@@ -36,7 +35,6 @@ const styles = StyleSheet.create({
     },
 
     botao:{
-        width:'70%',
         padding:16,
         backgroundColor: 'gray',
         color: '#f5f5f5',
@@ -44,6 +42,7 @@ const styles = StyleSheet.create({
         alignItems:'center',
         borderRadius:20,
         marginTop:20,
+        flex: 1
 
     },
     txtbotao:{
