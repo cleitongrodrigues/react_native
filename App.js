@@ -7,7 +7,8 @@ import { StyleSheet, Text, View, Image} from 'react-native';
 
 // import index from './src/Ex_03/index';
 // import Exemplo_3 from './src/Ex_03/index';
-import Exemplo_3 from './src/Atividade_03/index';
+// import Exemplo_3 from './src/Atividade_03/index';
+import Exemplo_04 from './src/Ex_4';
 
 
 
@@ -24,7 +25,7 @@ import Exemplo_3 from './src/Atividade_03/index';
 export default function App(){
   return(
     <View style={styles.container}>
-      <Exemplo_3/>
+      <Exemplo_04/>
     </View>
   );
 }
@@ -34,7 +35,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: "center",
-    backgroundColor: 'gray',
+    backgroundColor: '#b71c1c',
     padding: 8,
     
   },
