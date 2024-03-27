@@ -6,8 +6,9 @@ const styles = StyleSheet.create({
         backgroundColor: '#ffcdd2', 
         justifyContent: 'center', 
         alignItems: 'center', 
-        width: '100%', 
+        width:'100%', 
         borderRadius: 20, 
+        padding:20,
     }, 
     titulo: {
         fontSize: 30, 
@@ -15,9 +16,12 @@ const styles = StyleSheet.create({
         color: '#b71c1c', 
     }, 
     txtSaida: {
-        margin: 20, 
+        textAlign:'justify',
+        marginTop: 20, 
         fontSize: 25, 
+        fontWeight:'bold',
         color: '#e53935', 
+        
     }, 
     txtEntrada: {
         borderWidth: 3, 
@@ -40,6 +44,9 @@ const styles = StyleSheet.create({
     txtBotao: {
         color: '#f5f5f5', 
         fontSize: 20,         
+    },
+    div:{
+   width:'70%',
     },
 }); 
 
