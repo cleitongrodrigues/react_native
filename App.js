@@ -9,7 +9,8 @@ import { StyleSheet, Text, View, Image} from 'react-native';
 // import Exemplo_3 from './src/Ex_03/index';
 // import Exemplo_3 from './src/Atividade_03/index';
 // import Exemplo_04 from './src/Ex_4';
-import Atividade4 from './src/Atividade_04';
+// import Atividade4 from './src/Atividade_04';
+import Exemplo_05 from './src/Ex_05';
 
 
 
@@ -26,7 +27,7 @@ import Atividade4 from './src/Atividade_04';
 export default function App(){
   return(
     <View style={styles.container}>
-      <Atividade4/>
+      <Exemplo_05/>
     </View>
   );
 }
@@ -36,7 +37,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: "center",
-    backgroundColor: '#b71c1c',
+    backgroundColor: '#c51162',
     padding: 8,
     
   },
