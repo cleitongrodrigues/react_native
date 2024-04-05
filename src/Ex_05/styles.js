@@ -3,17 +3,26 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
     container: {
         flex: 1, 
-        backgroundColor: '#FF80AB', 
         justifyContent: 'center',
+        backgroundColor: '#FF80AB', 
         padding:8,
-        borderRadius: 20, 
+        width:'100%',
+        
+    },
+    paragrafo:{
+        margin:6,
+        fontSize:18,
+        fontWeight:'bold',
+        textAlign:'center',
+        color:'#C51162'
     },
     txtSaida:{
         margin:6,
         fontSize:22,
         fontWeight:'bold',
         textAlign:'center',
-        color:'#E91E63'
+        color:'#E91E63',
+        
     },
     txtEntrada:{
         borderWidth:4,
@@ -24,11 +33,45 @@ const styles = StyleSheet.create({
         color:'#E53935',
         borderRadius:10,
         marginTop:10,
+    
     },
     txtLabel:{
         fontSize:16,
         fontWeight:'bold',
         color:'#C51162'
+    },
+    botao:{
+        backgroundColor:'#E91E63',
+        height:'40',
+        justifyContent:'center',
+        borderRadius:10,
+        marginTop:20,
+        textAlign:'center',
+        justifyContent:"center",
+        alignItems:"center",
+        width:'23%',
+        marginLeft:8,
+    },
+    txtBotao:{
+        fontSize:22,
+        color:'#FF80AB',
+        padding:8,
+    },
+    teste:{
+        flexDirection:"row",
+        padding:8,
+        justifyContent:'center',
+        alignItems:'center',
+    },
+    zerar:{
+        backgroundColor:'#E91E63',
+        height:'40',
+        justifyContent:'center',
+        borderRadius:10,
+        marginTop:20,
+        textAlign:'center',
+        alignItems:"center",
+        width:'100%',
     },
 }); 
 
