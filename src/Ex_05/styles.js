@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
         justifyContent:"center",
         alignItems:"center",
         width:'23%',
-        marginLeft:8,
+       
     },
     txtBotao:{
         fontSize:22,
@@ -59,8 +59,7 @@ const styles = StyleSheet.create({
     },
     teste:{
         flexDirection:"row",
-        padding:8,
-        justifyContent:'center',
+        justifyContent:'space-between',
         alignItems:'center',
     },
     zerar:{
