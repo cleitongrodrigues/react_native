@@ -11,7 +11,8 @@ import { StyleSheet, Text, View, Image} from 'react-native';
 // import Exemplo_04 from './src/Ex_4';
 // import Atividade4 from './src/Atividade_04';
 // import Exemplo_05 from './src/Ex_05';
-import Exemplo5 from './src/Ex_05/atividade5/index'
+// import Exemplo5 from './src/Ex_05/atividade5/index'
+import Exemplo_06 from './src/Ex_06/index'
 
 
 
@@ -28,7 +29,7 @@ import Exemplo5 from './src/Ex_05/atividade5/index'
 export default function App(){
   return(
     <View style={styles.container}>
-      <Exemplo5/>
+      <Exemplo_06/>
     </View>
   );
 }

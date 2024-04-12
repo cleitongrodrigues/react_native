@@ -1,27 +1,31 @@
-import {TextInput} from 'react-native';
+import { TextInput } from 'react-native';
 
 import styles from './styles';
+import { useState } from 'react';
 
-export default function Caixa(){
-    return(
+export default function Input({valor, atValor, readonly = false}) {
+
+    const [isFocus, setIsFocus] = useState(false);
+
+    return (
         <TextInput
-        style={
-            [
-                styles.txtEntrada,
-                isFocusN1 ?
-                    {
-                        borderColor: '#C51162',
-                        outline: 'none',
-                    }
-                    :
-                    {}
-            ]
-        }
-        onFocus={() => setIsFocusN1(true)}
-        onBlur={() => setIsFocusN1(false)}
-        onChangeText={(num1) => setN1(num1)}
-        value={n1}
-        // keyboardType='numeric'
-    />
+            style={
+                [
+                    styles.txtEntrada,
+                    isFocus ?
+                        {
+                            borderColor: '#C51162',
+                            outline: 'none',
+                        }
+                        :
+                        {}
+                ]
+            }
+            onFocus={() => setIsFocus(true)}
+            onBlur={() => setIsFocus(false)}
+            onChangeText={(num2) => atValor(num2)}
+            value={valor}
+            readOnly={readonly}
+        />
     );
 }
