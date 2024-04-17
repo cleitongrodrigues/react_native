@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: "center",
-    backgroundColor: '#c51162',
+    backgroundColor: '#AAA',
     padding: 8,
     
   },
