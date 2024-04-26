@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {Text, TouchableHighlight, StyleSheet, Dimensions} from 'react-native';
+import {Text, View, StyleSheet, Dimensions} from 'react-native';
 import {RFPercentage} from 'react-native-responsive-fontsize';
 
 export default props =>

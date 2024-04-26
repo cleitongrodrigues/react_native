@@ -4,8 +4,12 @@ import {RFPercentage} from 'react-native-responsive-fontsize';
 
 
 export default function Button(props){
+    const stylesButton = [styles.button];
+    if (props.double) stylesButton.push(styles.buttonDouble);
+    if (props.Triple) stylesButton.push(styles.buttonTriple);
+    if (props.operation) stylesButton.push(styles.operationButton);
     return(
-    <TouchableHighlight onPress={props.onClick}>
+    <TouchableHighlight onPress={props.onClick(props.label)}>
         <Text style={styles.button}>{props.label}</Text>
     </TouchableHighlight>
     );
@@ -21,6 +25,16 @@ const styles = StyleSheet.create({
         textAlign:'center',
         borderWidth:1,
         borderColor:'#888',
+    },
+    operationButton:{
+        color:'#FFF',
+        backgroundColor:'#FA8231',
+    },
+    buttonDouble:{
+        width:((Dimensions.get('window').width / 4) -4) * 2,
+    },
+    buttonTriple:{
+        width:((Dimensions.get('window').width / 4) -4) * 3,
     },
 }
 );
