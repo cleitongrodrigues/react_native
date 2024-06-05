@@ -1,6 +1,8 @@
 import { useState } from 'react';
 
-import {View, FlatList, Text} from 'react-native';
+import {View, FlatList} from 'react-native';
+
+import {UUID } from 'react-native-uuid';
 
 import Header from './Header';
 
@@ -11,11 +13,11 @@ import styles from './styles';
 export default function Exemplo_08(){
     
     const [itens, setItens] = useState([
-        {id: 1, item: 'Leite'},
-        {id: 2, item: 'Ovos'},
-        {id: 3, item: 'Mamão'},
-        {id: 4, item: 'Banana'},
-        {id: 5, item: 'Alface'}
+        // {id: UUID.v4(), item: 'Leite'},
+        // {id: UUID.v4(), item: 'Ovos'},
+        // {id: UUID.v4(), item: 'Mamão'},
+        // {id: UUID.v4(), item: 'Banana'},
+        // {id: UUID.v4(), item: 'Alface'}
     ]);
     
     return(
