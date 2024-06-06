@@ -17,9 +17,9 @@ export default function Navegacao() {
   return (
     <NavigationContainer>
         <Stack.Navigator>
-        <Stack.Screen name="Home">
-            {(props) => <HomeScreen {...props} extraData={someData} />}
-        </Stack.Screen>
+        {/* <Stack.Screen name="Home">
+          {(props) => <HomeScreen {...props} extraData={someData} />} 
+        </Stack.Screen> */}
         <Stack.Screen name="Ex0" component={Exemplos} options={{ title: 'EXEMPLOS' }} />
         <Stack.Screen name="Ex2" component={Props} options={{ title: 'EXEMPLO 2' }} />
         <Stack.Screen name="Ex3" component={Exemplo_3} options={{ title: 'EXEMPLO 3' }} />
