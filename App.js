@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image} from 'react-native';
- 
-import Navegacao from './src/rotas/stackNavigation';
+import Navegacao from './src/rotas/drawerNavigation';
+import 'react-native-gesture-handler';
 
 
 
